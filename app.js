@@ -3,7 +3,7 @@ const eapp = express();
 
 // Route handler for '/sawingz/activestate'
 eapp.get('/sawingz/activestate', (req, res) => {
-    res.json({ isActive: true });
+    res.json({ isActive: false });
 });
 
 // Route handler for '/sawingz_redirect/activestate'
